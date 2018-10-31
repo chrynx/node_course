@@ -8,13 +8,15 @@ const environments = {};
 // staging environment
 environments.staging = {
     'envName': 'staging',
-    'port': 3000
+    'http': 3000,
+    'https': 3001
 };
 
 // production environment
 environments.production = {
     'envName': 'production'    ,
-    'port': 5000
+    'http': 5000,
+    'https': 5001
 };
 
 // Determine which env to use
